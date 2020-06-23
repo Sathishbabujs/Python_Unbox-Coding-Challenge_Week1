@@ -2,7 +2,7 @@ import random
 
 #Define random chromosomes
 def random_chromosome(size):
-    return [ random.randint(1, nq) for _ in range(nq) ]
+    return [ random.randint(0, nq) for _ in range(nq) ]
 
 #Define fitness
 def fitness(chromosome):
